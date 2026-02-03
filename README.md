@@ -11,9 +11,3 @@ Some responses may persist after inactivity.
 
 Last updated:
 Day 10 — 12:00 AM
-[[Launch Demo]]
-CloudChat Demo
-
-Sign in to continue.
-[[Log In]]
-[[Sign Up]]
