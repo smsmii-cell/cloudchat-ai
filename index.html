@@ -2,9 +2,72 @@
 <html>
 <head>
   <title>CloudChat</title>
+  <style>
+    body {
+      background: linear-gradient(#cfefff, #e8f9ff);
+      font-family: "Trebuchet MS", Verdana, Arial;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .window {
+      background: rgba(255, 255, 255, 0.8);
+      border-radius: 16px;
+      width: 320px;
+      padding: 20px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+      text-align: center;
+    }
+
+    h1 {
+      margin-top: 0;
+      color: #2b6cb0;
+    }
+
+    input {
+      width: 90%;
+      padding: 8px;
+      margin: 6px 0;
+      border-radius: 8px;
+      border: 1px solid #9ecae1;
+    }
+
+    button {
+      width: 95%;
+      padding: 8px;
+      margin-top: 10px;
+      border-radius: 10px;
+      border: none;
+      background: linear-gradient(#7dd3fc, #38bdf8);
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .link {
+      margin-top: 10px;
+      font-size: 12px;
+      color: #2563eb;
+      cursor: pointer;
+    }
+  </style>
 </head>
 <body>
-  <h1>CloudChat</h1>
-  <p>Loading demo…</p>
+
+  <div class="window">
+    <h1>CloudChat</h1>
+    <p>Sign in to continue</p>
+
+    <input type="text" placeholder="Username">
+    <input type="password" placeholder="Password">
+
+    <button>Log In</button>
+
+    <div class="link">Create an account</div>
+  </div>
+
 </body>
 </html>
